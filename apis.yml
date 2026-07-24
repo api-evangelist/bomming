@@ -1,7 +1,28 @@
 aid: bomming
 name: bomming
-description: bomming is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zhuhai Boming Vision Technology Co., Ltd. (珠海博明视觉科技有限公司) is a Chinese high-tech
+  industrial machine-vision company founded in September 2016 and headquartered in the
+  Zhuhai High-tech Zone. It develops optical and machine-vision inspection technology for
+  manufacturing quality control, including 3D structured-light sensors, flash measuring
+  instruments (闪测仪), 2D/3D profile measurement systems, PCB back-drill thickness gauges,
+  surface-defect inspection systems, glue-dispensing systems, and an AI deep-learning
+  algorithm platform for automated visual inspection. Its solutions serve the lithium-battery,
+  magnetic-materials, 3C electronics, semiconductor, photovoltaic, metalworking, and
+  pharmaceutical industries. This is a hardware/equipment manufacturer with no public
+  developer or API surface; the profile is retained as a VC-portfolio company lead.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://omo-oss-image1.thefastimg.com/portal-saas/pg2024121318592259454/cms/image/2c8b843a-a42c-43dc-9530-5ee9569be5bf.png?vf=B7gH3s
 url: https://raw.githubusercontent.com/api-evangelist/bomming/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Machine Vision
+- Industrial Inspection
+- 3D Sensors
+- Optical Measurement
+- Computer Vision
+- Manufacturing
+- Quality Control
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bomming-domain-security.yml
 - type: Website
-  url: https://bomming.com
+  url: https://www.bomming.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
